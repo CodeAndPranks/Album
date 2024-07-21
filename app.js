@@ -23,6 +23,7 @@ if(i < str.length)
    setTimeout(function() {
      text.nodeValue = ""
      demo.innerHTML = ""
+     document.body.style.backgroundColor="grey"
   }, 2000);  
   })();
 }
